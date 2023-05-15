@@ -1,0 +1,63 @@
+.body {
+  margin: 0;
+  font-family: monospace;
+}
+
+.header {
+  box-shadow: 0 0 0.5rem 0 #00000080;
+}
+
+.nav {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.container {
+  padding-right: 1rem;
+  padding-left: 1rem;
+  max-width: 1024px;
+  margin: auto;
+}
+
+.img {
+  display: block;
+}
+
+.img--logo {
+  width: 48px;
+  height: 48px;
+}
+
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.link {
+  padding: 0.25rem 1rem;
+  border-radius: 1rem;
+  color: black;
+  font-size: 1rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background-color 0.25s, color 0.25s;
+}
+
+.link:hover {
+  background-color: #006341;
+  color: white;
+}
+
+.flexbox {
+  display: flex;
+}
+
+.flexbox--header {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.gap-xs {
+  gap: 1rem;
+}
