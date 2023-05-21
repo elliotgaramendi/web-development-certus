@@ -18,8 +18,24 @@
 }
 
 .hero {
-  background-color: red;
-  min-height: 200vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 100%;
+  z-index: -1;
+  width: 100vh;
+  height: 100vh;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background-color: #006341;
 }
 
 .container {
@@ -59,6 +75,39 @@
   color: white;
 }
 
+.button {
+  padding: 0.25em 1em;
+  background-color: #006341;
+  border-radius: 1rem;
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.card__body {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1rem;
+}
+
+.card__title {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.card__text {
+  margin: 0;
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .card__text {
+    display: block;
+  }
+}
+
 .flexbox {
   display: flex;
 }
@@ -68,6 +117,25 @@
   justify-content: space-between;
 }
 
+.g-layout {
+  display: grid;
+}
+
+.g-layout--center {
+  align-items: center;
+  justify-items: center;
+}
+
+@media (min-width: 768px) {
+  .g-layout--1-1 {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
 .gap-2xs {
   gap: 0.5rem;
+}
+
+.color-primary {
+  color: #006341;
 }
