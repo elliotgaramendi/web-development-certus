@@ -9,6 +9,20 @@
 
 <body>
   <h1>Registro Feliz</h1>
+
+  <script>
+    alert('Registro feliz');
+
+    let user;
+    let password;
+
+    user = prompt('Usuario');
+    password = prompt('Contraseña');
+
+    alert('Felicitaciones usted se ha registrado');
+    alert('Usuario: ' + user);
+    alert('Contraseña: ' + password.replace(/./g, '*'));
+  </script>
 </body>
 
 </html>
