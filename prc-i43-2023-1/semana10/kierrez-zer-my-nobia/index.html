@@ -13,8 +13,9 @@
     }
 
     .img {
-      width: 100%;
-      max-width: 512px;
+      width: 256px;
+      height: 256px;
+      object-fit: cover;
       border-radius: 50%;
     }
   </style>
@@ -27,6 +28,23 @@
   <br>
   <button id="yes">🌚Si SoY🌚</button>
   <button id="no">😭Nel PerrO😭</button>
+
+  <script>
+    const vuttonYes = document.getElementById('yes');
+    const vuttonNo = document.getElementById('no');
+
+    vuttonYes.addEventListener('click', () => {
+      alert('💞 Now ZoMos NoBios 💞');
+      alert('😱 NuesTrA VoDa Is TomoRRow 😱');
+      window.location.href = 'https://www.youtube.com/watch?v=9BMwcO6_hyA&t=38s';
+    });
+
+    vuttonNo.addEventListener('mouseover', () => {
+      vuttonNo.style.position = 'absolute';
+      vuttonNo.style.top = Math.random() * innerHeight + 'px';
+      vuttonNo.style.left = Math.random() * innerWidth + 'px';
+    });
+  </script>
 </body>
 
 </html>
