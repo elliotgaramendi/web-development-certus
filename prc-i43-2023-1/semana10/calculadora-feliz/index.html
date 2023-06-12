@@ -13,13 +13,13 @@
   <main class="py-5">
     <div class="container">
       <h1 class="text-primary text-center">Calculadora Feliz</h1>
-      <form>
+      <form name="happyForm">
         <div class="form-floating mb-3">
-          <input type="number" class="form-control" id="number1" placeholder="Número 1">
+          <input type="number" name="number1" class="form-control" id="number1" placeholder="Número 1">
           <label for="number1">Número 1</label>
         </div>
         <div class="form-floating mb-3">
-          <select class="form-select" id="operator" aria-label="Operador">
+          <select name="operator" class="form-select" id="operator" aria-label="Operador">
             <option selected>Seleccionar operación</option>
             <option value="+">+</option>
             <option value="-">-</option>
@@ -29,13 +29,16 @@
           <label for="operator">Operador</label>
         </div>
         <div class="form-floating mb-3">
-          <input type="number" class="form-control" id="number2" placeholder="Número 2">
+          <input type="number" name="number2" class="form-control" id="number2" placeholder="Número 2">
           <label for="number2">Número 2</label>
         </div>
-        <button type="button" class="btn btn-primary btn-lg w-100">Calcular</button>
+        <button type="submit" class="btn btn-primary btn-lg w-100">Calcular</button>
       </form>
+      <span class="mt-3 badge bg-info fs-2 w-100" id="result"></span>
     </div>
   </main>
+
+  <script src="./js/index.js"></script>
 </body>
 
 </html>
