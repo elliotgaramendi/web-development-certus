@@ -1,11 +1,15 @@
 'use strict';
 
-import faq from "./modules/faq.js";
-import header from "./modules/header.js";
-import slider from "./modules/slider.js";
-
 window.addEventListener('DOMContentLoaded', () => {
-  header();
-  slider();
-  faq();
+  const menuIcon = document.querySelector('.header-nav__menu-icon');
+  const closeIcon = document.querySelector('.header-nav__close-icon');
+  const linksMenu = document.querySelector('.header-nav__link-list');
+
+  menuIcon.addEventListener('click', () => {
+    linksMenu.classList.add('header-nav__link-list--open')
+  });
+
+  closeIcon.addEventListener('click', () => {
+    linksMenu.classList.remove('header-nav__link-list--open')
+  });
 });
