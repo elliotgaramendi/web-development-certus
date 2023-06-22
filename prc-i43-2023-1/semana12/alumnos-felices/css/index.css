@@ -1,0 +1,113 @@
+.body {
+  min-height: 100vh;
+  margin: 0;
+  background-image: url('https://i.postimg.cc/x9MyhM3D/react-system.webp');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  font-family: monospace;
+}
+
+.section {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.section__title {
+  margin: 0;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.container {
+  max-width: 1024px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: 0 auto;
+}
+
+.card {
+  /* max-width: 320px; */
+  box-shadow: 0 0 16px 0 rgba(255, 255, 255, 0.5);
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.card__body {
+  height: 100%;
+  padding: 16px;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(32px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 8px;
+}
+
+.card__img {
+  display: block;
+  border-radius: 50%;
+  box-shadow: 0 0 8px 0 rgba(255, 255, 255, 0.5);
+  object-fit: cover;
+}
+
+.card__title {
+  margin: 0;
+  font-size: 20px;
+}
+
+.card__subtitle {
+  margin: 0;
+  color: #bbb;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.card__text {
+  margin: 0;
+  font-size: 12px;
+}
+
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.skill {
+  background-color: #087ea4;
+  padding: 4px 16px;
+  border-radius: 16px;
+}
+
+.icon {
+  font-size: 20px;
+  color: white;
+}
+
+.g-layout {
+  display: grid;
+}
+
+.g-layout--auto-fit-card {
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.d-flex {
+  display: flex;
+}
+
+.f-direction-column {
+  flex-direction: column;
+}
+
+.gap-5xs {
+  gap: 0.5rem;
+}
+
+.gap-md {
+  gap: 2rem;
+}
