@@ -4,7 +4,6 @@ window.addEventListener('DOMContentLoaded', () => {
   fetch('https://elliotgaramendi.github.io/web-development-certus/prc-i43-2023-1/semana12/alumnos-felices/json/students.json')
     .then(response => response.json())
     .then(data => {
-      console.log(data);
       const studentCards = document.getElementById('studentCards');
       data.forEach(element => {
         const { id, image, name, age, keywords, location, description, technologies, youtube, github, linkedin, instagram } = element;

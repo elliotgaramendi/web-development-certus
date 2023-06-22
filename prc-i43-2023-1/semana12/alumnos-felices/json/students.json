@@ -50,6 +50,28 @@
     "tiktok": "",
     "image": "",
     "other": ""
+  },
+  {
+    "id": 5,
+    "name": "ruth santiago bendezu",
+    "age": 19,
+    "birthday": "01/02/2004",
+    "profession": "estudiante de diseño y desarrollo Software",
+    "school": "Certus",
+    "reason": "",
+    "skill": "Junior",
+    "developer": "Frontend",
+    "keywords": "👨‍💻Desarrollador👨‍💻 | 🌌Frontend🌌 | ⚛React⚛ |      💻Alumna💻​",
+    "technologies": "React, Next.js",
+    "language": "HTML",
+    "location": "Lima, Perú",
+    "description": "Estudiante de diseño y desarrollo de software.Apasionada en aprender nuevas cosas",
+    "expectations": "dar lo mejor de mi ",
+    "hobbies": "Escribir",
+    "github": "Ruth1nes",
+    "instagram": "nix.jinx",
+    "facebook": "ning ning",
+    "image": "https://lh3.googleusercontent.com/GcnZaFXSNheoP4VXe65AJllPxCMOF_vkgcDrhJoQhqY0djKB9g-2K-6q5n2dN3vVlwTW2tEgy-xOx2_vJbMT8fjNBrtWTR09iK73REycIw",
+    "other": ""
   }
-
 ]
