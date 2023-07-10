@@ -1,0 +1,1 @@
+document.getElementById('user').textContent = `👨‍💻 Usuario ${JSON.parse(localStorage.getItem('tienditaFelizUser')).email}  👨‍💻`
